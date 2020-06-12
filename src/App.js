@@ -1,24 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
+// import ShareButton from './components/ShareButton'
+import LinkButton from './components/LinkButton'
+// import CommentButton from './components/CommentButton'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <ShareButton/> */}
+      <LinkButton/>
+      {/* <CommentButton/> */}
     </div>
   );
 }
