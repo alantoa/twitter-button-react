@@ -1,13 +1,13 @@
 import React from 'react';
 
 // import ShareButton from './components/ShareButton'
-import LinkButton from './components/LinkButton'
+import LikeButton from './components/LikeButton'
 // import CommentButton from './components/CommentButton'
 function App() {
   return (
     <div className="App">
       {/* <ShareButton/> */}
-      <LinkButton/>
+      <LikeButton/>
       {/* <CommentButton/> */}
     </div>
   );
